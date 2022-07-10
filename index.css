@@ -16,7 +16,52 @@ header {
 }
 
 
+.menu-button {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: gray;
+    cursor: pointer;
+}
 
+.menu-button span {
+    width: 40px;
+    height: 4px;
+    background: white;
+}
+.menu-toggle {
+    display: none;
+}
+
+.toggle {
+    display: none;
+    text-align: center;
+    background-color: gray;
+    border-radius: 7px;
+    padding: 20px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.toggle li {
+    list-style: none;
+    display: block;
+    padding: 10px auto;
+    color: #fafafa;
+}
+
+.menu-toggle:checked + .toggle {
+    display: block;
+    
+}
+
+
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -163,7 +208,7 @@ header {
 }
 
 
-
+ */
 
 
 
@@ -206,6 +251,7 @@ header {
     text-align:left;
     padding-top: 300px;
     padding-left: 30px;
+    
 }
 
 .button-comprar {
