@@ -8,6 +8,7 @@ function getID(length) {
 	return result;
 }
 
+const allZapas = [];
 
 class Zapatillas {
     constructor({ marca, nombre, precio, stock, image }) {
@@ -18,6 +19,8 @@ class Zapatillas {
         this.stock = stock || 0;
         this.image = image;
     }
+
+    
 }
 
 
@@ -186,3 +189,19 @@ const newb2 = new Zapatillas({
 })
 
 
+
+
+const zapas = document.getElementById(`zapatillas`);
+const selectbrand = document.getElementById(`selectbrand`);
+const mostrarZapas = document.getElementById(`verzapas`);
+const verZapas = document.getElementById(`mostrarlas`)
+
+
+
+const storeZapas = localStorage.setItem(Zapatillas, JSON.stringify(Zapatillas));
+
+verZapas.addEventListener(`click`, (e) =>{
+    const inputValue = selectbrand.value;
+    zapasFind = Zapatillas.
+
+})

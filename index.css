@@ -447,3 +447,23 @@ header {
 margin: 0;
 padding: 10px;
 }
+
+
+
+.tienda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tienda h3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
